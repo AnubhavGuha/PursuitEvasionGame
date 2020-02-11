@@ -1,8 +1,0 @@
-prefix=/home/anubhav/catkin_ws/install
-
-Name: turtle_house
-Description: Description of turtle_house
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
