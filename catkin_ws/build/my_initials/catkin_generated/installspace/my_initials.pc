@@ -1,0 +1,8 @@
+prefix=/home/sambour/catkin_ws/install
+
+Name: my_initials
+Description: Description of my_initials
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

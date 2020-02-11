@@ -1,0 +1,8 @@
+prefix=/home/sambour/catkin_ws/install
+
+Name: turtlebot3_mygazebo
+Description: Description of turtlebot3_mygazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
