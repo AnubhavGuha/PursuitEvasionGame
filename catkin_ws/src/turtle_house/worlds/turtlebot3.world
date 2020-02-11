@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>/home/anubhav/model_editor_models/floorplan_with_objects</uri>
+    </include>
+    <include>
+      <uri>/home/anubhav/building_editor_models/Floorplan</uri>
+      <name>gas_station</name>
+    </include>
+  </world>
+</sdf>
