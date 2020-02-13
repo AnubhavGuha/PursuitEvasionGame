@@ -8,10 +8,10 @@
       <uri>model://sun</uri>
     </include>
     <include>
-      <uri>/home/sambour/model_editor_models/floorplan_with_objects</uri>
+      <uri>/home/anubhav/model_editor_models/floorplan_with_objects</uri>
     </include>
     <include>
-      <uri>/home/sambour/building_editor_models/Floorplan</uri>
+      <uri>/home/anubhav/building_editor_models/Floorplan</uri>
       <name>gas_station</name>
     </include>
   </world>

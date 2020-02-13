@@ -7,7 +7,7 @@ Update the turtle_house package.
 Usage:
 
 1. Copy turtle_house package to your catkin_ws/src.
-2. Replace the home path of launch file to your own.
+2. Replace the home path of world file to your own.
 3. under catkin_ws directory do: 
 	catkin_make
 	source devel/setup.bash

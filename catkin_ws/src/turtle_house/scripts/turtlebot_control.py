@@ -4,6 +4,11 @@ import rospy
 from geometry_msgs.msg import Twist
 from math import pi
 
+def sleep(sec):
+    pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+    rospy.init_node('talker', anonymous=True)
+    rospy.sleep(sec)
+
 def walk_forward(dist):
     pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
     rospy.init_node('talker', anonymous=True)

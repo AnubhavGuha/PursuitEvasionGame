@@ -1,2 +1,0 @@
-<!-- Spawn a robot into Gazebo -->
-  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find turtlebot3_description)/urdf/turtlebot3_burger.urdf.xacro -urdf -x 1 -y 1 -z 0.5 -model turtlebot3" />
